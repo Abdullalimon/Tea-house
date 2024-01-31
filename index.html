@@ -20,7 +20,8 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
                     }
                 }
             }
@@ -42,7 +43,9 @@
                         tea time at The <br> Tea House</h1>
                     <p class="py-6 text-lg font-medium text-gray-500">Tea and Botanical Solutions Supplier Give Optimum
                         Satisfaction To Your Taste Buds.</p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="text-white btn bg-gradient-to-r from-gradient-start to-gradient-end">
+                        Explore More<i class="fa-solid fa-arrow-trend-up"></i>
+                    </button>
                 </div>
 
                 <div>
@@ -138,7 +141,7 @@
         </section>
         <!-- Clients -->
         <section
-            class="my-24 mx-3 lg:mx-56 flex flex-col lg:flex-row rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-5 py-4 lg:px-20 lg:py-24 gap-14">
+            class="my-24 mx-3 lg:mx-56 flex flex-col lg:flex-row rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end px-5 py-4 lg:px-20 lg:py-24 gap-14">
             <div class="flex items-center">
                 <div class="space-y-5 ">
                     <h2 class="text-5xl font-extrabold">Meet Our Super <br> Clients</h2>
@@ -235,18 +238,18 @@
             </div>
         </section>
     </main>
-    <footer class="bg-base-200 py-32 px-56">
-       <div class="flex justify-between">
-        <img class="mb-24" src="images/cup.png" alt="">
-        <p>
-            <span>Ready to get started?</span>
-            <button class="btn btn-primary">Get Started</button>
-        </p>
-       </div>
-        <div class="footer p-10 bg-base-200 text-base-content">
+    <footer class="bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] lg:py-32 lg:px-56">
+        <div class="flex mt-4 lg:justify-between">
+            <img class="lg:mb-24 mr-14" src="images/cup.png" alt="">
+            <p>
+                <span class="mr-10">Ready to get started?</span>
+                <button class="text-white btn bg-gradient-to-r from-gradient-start to-gradient-end">Get Started</button>
+            </p>
+        </div>
+        <div class="footer p-10 bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] text-base-content">
 
             <div>
-                <span class="footer-title text-2xl font-semibold text-[#1C1C1C]">Quick Links</span>
+                <span class=" footer-title text-2xl font-semibold ">Quick Links</span>
                 <a class="link link-hover">Home</a>
                 <a class="link link-hover">About Us</a>
                 <a class="link link-hover">Insurance</a>
@@ -263,20 +266,20 @@
                 <span class="footer-title text-2xl font-semibold text-[#1C1C1C]">Help</span>
                 <a class="link link-hover">FAQs</a>
                 <a class="link link-hover">Contact Us</a>
-                
+
             </div>
             <div>
                 <span class="footer-title text-2xl font-semibold text-black">Subscribe to our <br> newsletter</span>
-                <div> 
-                    
-                    <div class="join">
-                        <input type="text" placeholder="Email address" class="border-b-2 border-black bg-transparent outline-none" />
-                        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none"><i class="fa-solid fa-chevron-right"></i></button>
-                    </div>
+                <div class="join">
+                    <input type="text" placeholder="Email address"
+                        class="border-b-2 border-black bg-transparent outline-none py-4" />
+                    <button
+                        class="btn  join-item text-white  rounded-full bg-gradient-to-r from-gradient-start to-gradient-end"><i
+                            class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
-        <div class="bg-base-200 text-center">
+        <div class="bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] text-center">
 
             <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
 
